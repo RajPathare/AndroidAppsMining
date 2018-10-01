@@ -1,0 +1,31 @@
+{
+    'app_id': 
+    'category':
+    'content_rating': 
+    'current_version': 
+    'description': 
+    'developer': 
+    'developer_address': 
+    'developer_email': 
+    'developer_id': 
+    'developer_url': 
+    'editors_choice': 
+    'free':
+    'histogram': 
+    'iap': 
+    'iap_range': 
+    'icon': 
+    'installs': 
+    'interactive_elements': 
+    'price':
+    'recent_changes': 
+    'required_android_version':
+    'reviews': 
+    'score': 
+    'screenshots': 
+    'size': 
+    'title': 
+    'updated': 
+    'url': 
+    'video':
+}

@@ -1,0 +1,11 @@
+jupyter notebook --notebook-dir='E:\BE-project'
+
+
+use SD for making app developer profile
+
+use spearman correlation on Edu db
+
+look about normalizing dataset
+
+finding wordcloud of low rated apps and high rated apps
+find word freq of low rated apps + high rated apps
