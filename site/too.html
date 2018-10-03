@@ -77,6 +77,37 @@
 
    
     <link href="css/freelancer.min.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+        $("#try").hide();
+		});
+		
+		$(document).ready(function(){
+        $("#try1").hide();
+		});
+		
+
+
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#try").show();
+		$("#try1").hide();
+		
+    });
+});
+
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#try1").show();
+		$("#try").hide();
+    });
+});
+
+</script>
 
   </head>
 
@@ -99,6 +130,21 @@
 	
 	<hr><hr>
 	
+	<div class="container" align = "center">
+	   
+	   	  <button class="button button3" id = "hide">LOW RATED APPS</button><br><br>
+	   	  <button class="button button3" id = "show">HIGH RATED APPS</button><br><br>
+	   	  
+	   
+	  
+      <hr><hr>
+  
+
+</div>
+
+<div id = "try">
+
+	
 	<h1 align="center"> Word Cloud </h1>
 	<br>
 	
@@ -109,15 +155,7 @@
   </div>
 <br>
 
-<div align = "center">
-  <h3 align = "center">Low Rated apps</h3>
-    <img src="pics/to/low.png" alt="Forest" style="width:50%">
-</div>
-
-
-
-    
-    <hr><hr>
+<hr><hr>
 		
 		<h1 align = "center"> Features Extraction </h1><br>
 		<h2 align="center"> High Rated Apps</h2>
@@ -166,6 +204,40 @@
 </table>
 
 <hr><hr>
+
+<h1 align = "center"> Correlation </h1>
+	  <br>
+	  <div align = "center">
+	 
+  
+	
+    <img src="pics/to/corr.PNG" alt="Snow">
+ 
+<br><br><hr>
+	  
+	  </div>
+	  </div>
+	  
+	  <div id = "try1">
+	  
+	  
+	  
+	  <h1 align="center"> Word Cloud </h1>
+	<br>
+
+
+
+<div align = "center">
+  <h3 align = "center">Low Rated apps</h3>
+    <img src="pics/to/low.png" alt="Forest" style="width:50%">
+</div>
+
+
+<hr><hr>
+		
+		<h1 align = "center"> Features Extraction </h1><br>
+    
+    
 
 
 <h2 align = "center"> Low Rated Apps </h2>
@@ -229,6 +301,7 @@
  
 <br><br><hr>
 	  
+	  </div>
 	  </div>
 	 
     

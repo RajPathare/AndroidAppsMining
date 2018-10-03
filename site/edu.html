@@ -55,6 +55,8 @@
 .tg .tg-387r{font-size:13px;border-color:inherit;text-align:left;vertical-align:top}
 
 
+
+
 </style>
 
     <meta charset="utf-8">
@@ -77,6 +79,37 @@
 
    
     <link href="css/freelancer.min.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+        $("#try").hide();
+		});
+		
+		$(document).ready(function(){
+        $("#try1").hide();
+		});
+		
+
+
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#try").show();
+		$("#try1").hide();
+		
+    });
+});
+
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#try1").show();
+		$("#try").hide();
+    });
+});
+
+</script>
 
   </head>
 
@@ -99,28 +132,32 @@
 	
 	<hr><hr>
 	
+	
+	<div class="container" align = "center">
+	   
+	   	  <button class="button button3" id = "hide">LOW RATED APPS</button><br><br>
+	   	  <button class="button button3" id = "show">HIGH RATED APPS</button><br><br>
+	   	  
+	   
+	  
+      <hr><hr>
+  
+
+</div>
+	
+	<div id = "try">
 	<h1 align="center"> Word Cloud </h1>
 	<br>
 	
 	
 	<div align = "center">
-  
+  <div class="col-6">
   <h3 align = "center">High Rated apps</h3>
-    <img src="pics/edu/ehigh.png" alt="Snow" style="width:50%">
+    <img src="pics/edu/ehigh.png" alt="Snow" style="width:100%">
+  </div>
+  </div>
+  <br>
   
-</div>
-
-<br>
-<div align = "center">
-  
-  <h3 align = "center">Low Rated apps</h3>
-    <img src="pics/edu/elow.png" alt="Forest" style="width:50%">
-
-</div>
-
-
-    
-    <hr><hr>
 		
 		<h1 align = "center"> Features Extraction </h1><br>
 		<h2 align="center"> High Rated Apps</h2>
@@ -170,6 +207,35 @@
 
 <hr><hr>
 
+<h1 align = "center"> Correlation </h1>
+	  <br>
+	  <div align = "center">
+	 
+  
+	
+    <img src="pics/edu/ecorr1.PNG" alt="Snow">
+ 
+<br><br><hr>
+	  
+	  </div>
+	  </div>
+	  
+	  <div id = "try1">
+	  
+	  
+	  <h1 align="center"> Word Cloud </h1>
+	<br>
+	  
+<div align = "center">
+  <div class="col-6">
+  <h3 align = "center">Low Rated apps</h3>
+    <img src="pics/edu/elow.png" alt="Forest" style="width:100%">
+</div>
+</div>
+
+
+    
+    <hr><hr>
 
 <h2 align = "center"> Low Rated Apps </h2>
 
@@ -221,7 +287,6 @@
 	  
       <hr><hr>
 	  
-	  
 	  <h1 align = "center"> Correlation </h1>
 	  <br>
 	  <div align = "center">
@@ -233,6 +298,12 @@
 <br><br><hr>
 	  
 	  </div>
+	  </div>
+	  
+	  
+	  
+	  
+	  
 	 
     
 
