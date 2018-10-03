@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.button3 {width: 100%;}
+.button3 {width: 50%;}
 
 
 
@@ -71,12 +71,44 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	
 
    
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
    
     <link href="css/freelancer.min.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+        $("#try").hide();
+		});
+		
+		$(document).ready(function(){
+        $("#try1").hide();
+		});
+		
+
+
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("#try").show();
+		$("#try1").hide();
+		
+    });
+});
+
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#try1").show();
+		$("#try").hide();
+    });
+});
+
+</script>
 
   </head>
 
@@ -99,6 +131,21 @@
 	
 	<hr><hr>
 	
+	
+	<div class="container" align = "center">
+	   
+	   	  <button class="button button3" id = "hide">LOW RATED APPS</button><br><br>
+	   	  <button class="button button3" id = "show">HIGH RATED APPS</button><br><br>
+	   	  
+	   
+	  
+      <hr><hr>
+  
+
+</div>
+	
+	
+	<div id = "try">
 	<h1 align="center"> Word Cloud </h1>
 	<br>
 	
@@ -110,19 +157,10 @@
   </div>
   </div>
   <br>
-
-<div align = "center">
-  <div class="col-6">
-  <h3 align = "center">Low Rated apps</h3>
-    <img src="pics/bus/blow.png" alt="Forest" style="width:100%">
-</div>
-</div>
-
-
-    
-    <hr><hr>
-		
-		<h1 align = "center"> Features Extraction </h1><br>
+  
+  
+  
+  <h1 align = "center"> Features Extraction </h1><br>
 		<h2 align="center"> High Rated Apps</h2>
 		
 	<table class="tg" align = "center">
@@ -171,6 +209,42 @@
 <hr><hr>
 
 
+<h1 align = "center"> Correlation </h1>
+	  <br>
+	  <div align = "center">
+	 
+  
+	
+    <img src="pics/bus/bcorr1.PNG" alt="Snow">
+ 
+<br><br><hr>
+	  
+	  </div>
+
+  </div>
+  
+  
+  <div id = "try1">
+  
+  <h1 align="center"> Word Cloud </h1>
+	<br>
+	
+	
+
+<div align = "center">
+  <div class="col-6">
+  <h3 align = "center">Low Rated apps</h3>
+    <img src="pics/bus/blow.png" alt="Forest" style="width:100%">
+</div>
+</div>
+
+
+    
+    <hr><hr>
+		
+		
+
+
 <h2 align = "center"> Low Rated Apps </h2>
 
 <table class="tg" align = "center">
@@ -215,14 +289,12 @@
     <td class="tg-387r">spreadsheet vsphere inventory barcode vmware email esx vm barcode scanner create<br></td>
   </tr>
 </table>
-       
-	  
-	   
-	  
-      <hr><hr>
-	  
-	  
-	  <h1 align = "center"> Correlation </h1>
+
+
+<hr><hr>
+
+
+<h1 align = "center"> Correlation </h1>
 	  <br>
 	  <div align = "center">
 	 
@@ -233,7 +305,13 @@
 <br><br><hr>
 	  
 	  </div>
-	 
+  
+  
+  
+  
+  
+  </div>
+  
     
 
     <footer class="footer text-center">
